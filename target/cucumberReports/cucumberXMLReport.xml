@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="0.967" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="User buy prodcut" name="Login with credentials - #1.1" time="0.037">
+<system-out><![CDATA[
+Given User opens Main page..................................................passed
+Given User navigates to LogIn page..........................................passed
+When User enter email address "tanjiro@kamado.com"..........................passed
+And User enter password "Tanjiro@1216"......................................passed
+Then User logged in successfully............................................passed
+When User enters product name...............................................passed
+And searches for product....................................................passed
+And User should get redirected to product page..............................passed
+And product found successfully..............................................passed
+And User selects product size...............................................passed
+And selects product color...................................................passed
+And clicks product to add to cart button....................................passed
+And product cart alert message appears......................................passed
+And User opens add to cart dropdown.........................................passed
+And clicked on procced to check out.........................................passed
+And enters to shipping page.................................................passed
+And clicked on Next button..................................................passed
+And clicked on place order button...........................................passed
+And product checked out successfully........................................passed
+And clicked on order number.................................................passed
+And prints order............................................................passed
+And closes driver...........................................................passed
+And views order details.....................................................passed
+Then logouts................................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
